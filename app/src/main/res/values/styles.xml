@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -28,5 +28,19 @@
     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>
     </style>
+
+    <!--&lt;!&ndash; The button styles &ndash;&gt;-->
+    <!--<style name="buttonStyle">-->
+    <!--<item name="android:textColor">#ffffff</item>-->
+    <!--<item name="android:background">#80000000</item>-->
+    <!--<item name="android:button">-->
+    <!--<shape-->
+    <!--android:shape="rectangle" >-->
+    <!--<stroke-->
+    <!--android:width="0.5dp"-->
+    <!--android:color="#ffffff" />-->
+    <!--</shape>-->
+    <!--</item>-->
+    <!--</style>-->
 
 </resources>

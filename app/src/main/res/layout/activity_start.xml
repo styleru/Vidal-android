@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="@string/dummy_content"
+        android:text="Авторизация"
         android:textColor="#33b5e5"
         android:textSize="50sp"
         android:textStyle="bold" />
@@ -27,30 +27,31 @@
         android:fitsSystemWindows="true"
         android:background="#ffffff">
 
-        <LinearLayout
-            android:id="@+id/fullscreen_content_controls"
-            style="?metaButtonBarStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay"
-            android:orientation="horizontal"
-            tools:ignore="UselessParent">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/fullscreen_content_controls"-->
+            <!--style="?metaButtonBarStyle"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom|center_horizontal"-->
+            <!--android:background="@color/black_overlay"-->
+            <!--android:orientation="horizontal"-->
+            <!--tools:ignore="UselessParent">-->
 
-            <Button
-                android:id="@+id/dummy_button"
-                style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button" />
+            <!--<Button-->
+                <!--android:id="@+id/dummy_button"-->
+                <!--style="?metaButtonBarButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/dummy_button" />-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:weightSum="1">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -125,11 +126,42 @@
                 />
 
             <Button
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:text="Войти"
+                android:id="@+id/entryButton"
+                android:textAllCaps="false"
+                android:background="@color/DarkRed"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="center_horizontal" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_weight="0.25">
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:text="Регистрация"
+                    android:id="@+id/signUpButton"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_boarder"
+                />
+            </FrameLayout>
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Войти"
-                android:id="@+id/button2"
-                android:layout_gravity="center_horizontal" />
+                android:text="@string/NotHealthSpecialist"
+                android:textColor="@color/Gray"
+                android:id="@+id/button4"
+                android:layout_gravity="center_horizontal"
+                android:background="#00ffffff"
+                android:textAllCaps="false" />
+
         </LinearLayout>
 
     </FrameLayout>

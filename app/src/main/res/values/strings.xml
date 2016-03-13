@@ -9,9 +9,17 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="title_activity_start">startActivity</string>
+    <string name="title_activity_start">SignUpFullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="ForgotPassword"><u>Забыли пароль?</u></string>
+    <string name="NotHealthSpecialist"><u>Я не являюсь специалистом здравохранения ></u></string>
+    <string name="Back"><u>Назад</u></string>
+
+    <string name="title_activity_sign_up_fullscreen">SignUpFullscreenActivity</string>
+
+    <string name="title_activity_logos_start_fullscreen">LogosStartFullscreenActivity</string>
+    <string name="title_activity_master">MasterActivity</string>
+
 </resources>
